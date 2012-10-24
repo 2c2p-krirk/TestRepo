@@ -1,0 +1,505 @@
+System.Net Verbose: 0 : [9408] WebRequest::Create(https://directory.securecode.com/)
+System.Net Verbose: 0 : [9408] HttpWebRequest#48285313::HttpWebRequest(https://directory.securecode.com/#-861540656)
+System.Net Verbose: 0 : [9408] Exiting HttpWebRequest#48285313::HttpWebRequest() 
+System.Net Verbose: 0 : [9408] Exiting WebRequest::Create() 	-> HttpWebRequest#48285313
+System.Net Verbose: 0 : [9408] HttpWebRequest#48285313::GetRequestStream()
+System.Net Information: 0 : [9408] Associating HttpWebRequest#48285313 with ServicePoint#31914638
+System.Net Information: 0 : [9408] Associating Connection#18796293 with HttpWebRequest#48285313
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Socket(InterNetwork#2)
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Socket() 
+System.Net.Sockets Verbose: 0 : [9408] Socket#46104728::Socket(InterNetworkV6#23)
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#46104728::Socket() 
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Connect(48:443#819492451)
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Connect() 
+System.Net.Sockets Verbose: 0 : [9408] Socket#46104728::Close()
+System.Net.Sockets Verbose: 0 : [9408] Socket#46104728::Dispose()
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#46104728::Close() 
+System.Net Information: 0 : [9408] TlsStream#12289376::.ctor(host=directory.securecode.com, #certs=1)
+System.Net Information: 0 : [9408] Associating HttpWebRequest#48285313 with ConnectStream#43495525
+System.Net Information: 0 : [9408] HttpWebRequest#48285313 - Request: POST / HTTP/1.1
+
+System.Net Information: 0 : [9408] SecureChannel#55915408::.ctor(hostname=directory.securecode.com, #clientCertificates=1)
+System.Net Information: 0 : [9408] Enumerating security packages:
+System.Net Information: 0 : [9408]     Negotiate
+System.Net Information: 0 : [9408]     NegoExtender
+System.Net Information: 0 : [9408]     Kerberos
+System.Net Information: 0 : [9408]     NTLM
+System.Net Information: 0 : [9408]     Schannel
+System.Net Information: 0 : [9408]     Microsoft Unified Security Protocol Provider
+System.Net Information: 0 : [9408]     WDigest
+System.Net Information: 0 : [9408]     TSSSP
+System.Net Information: 0 : [9408]     pku2u
+System.Net Information: 0 : [9408]     LiveSSP
+System.Net Information: 0 : [9408]     CREDSSP
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Attempting to restart the session using the user-provided certificate: [Version]
+  V3
+
+[Subject]
+  CN=rt03.Kasikornbank.com, OU=Retail and SME E-Business Department (RE)., O="541176:KASIKORNBANK PUBLIC CO.,LTD.", C=TH
+  Simple Name: rt03.Kasikornbank.com
+  DNS Name: rt03.Kasikornbank.com
+
+[Issuer]
+  CN=PRD MC SecureCode Acquirer Sub CA, OU=MasterCard Worldwide SecureCode Gen 2, O=MasterCard Worldwide, C=US
+  Simple Name: PRD MC SecureCode Acquirer Sub CA
+  DNS Name: PRD MC SecureCode Acquirer Sub CA
+
+[Serial Number]
+  105201CE33FFA440B6BF3A7D3BAAEC46
+
+[Not Before]
+  9/20/2012 4:57:33 PM
+
+[Not After]
+  6/20/2025 4:16:18 PM
+
+[Thumbprint]
+  0E93C36E5626C8131423CC57407F40379FD1ED11
+
+[Signature Algorithm]
+  sha1RSA(1.2.840.113549.1.1.5)
+
+[Public Key]
+  Algorithm: RSA
+  Length: 2048
+  Key Blob: 30 82 01 0a 02 82 01 01 00 ce af 7f d2 f0 ca f8 06 c5 1e 19 07 bf 4a 3b ef d0 b9 d9 e6 6e e8 a9 aa c2 5c 2e a5 de 62 d5 06 6a 80 f4 32 2f cc 5f ef fb aa a9 9b 5e 08 f1 ee 57 f3 bb 6d 71 d7 f5 d6 f8 3a 42 9c 25 97 a9 33 73 33 54 61 e9 ce 0f 07 7d 09 9e 46 c8 cf ....
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Left with 1 client certificates to choose from.
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Trying to find a matching certificate in the certificate store.
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Locating the private key for the certificate: [Version]
+  V3
+
+[Subject]
+  CN=rt03.Kasikornbank.com, OU=Retail and SME E-Business Department (RE)., O="541176:KASIKORNBANK PUBLIC CO.,LTD.", C=TH
+  Simple Name: rt03.Kasikornbank.com
+  DNS Name: rt03.Kasikornbank.com
+
+[Issuer]
+  CN=PRD MC SecureCode Acquirer Sub CA, OU=MasterCard Worldwide SecureCode Gen 2, O=MasterCard Worldwide, C=US
+  Simple Name: PRD MC SecureCode Acquirer Sub CA
+  DNS Name: PRD MC SecureCode Acquirer Sub CA
+
+[Serial Number]
+  105201CE33FFA440B6BF3A7D3BAAEC46
+
+[Not Before]
+  9/20/2012 4:57:33 PM
+
+[Not After]
+  6/20/2025 4:16:18 PM
+
+[Thumbprint]
+  0E93C36E5626C8131423CC57407F40379FD1ED11
+
+[Signature Algorithm]
+  sha1RSA(1.2.840.113549.1.1.5)
+
+[Public Key]
+  Algorithm: RSA
+  Length: 2048
+  Key Blob: 30 82 01 0a 02 82 01 01 00 ce af 7f d2 f0 ca f8 06 c5 1e 19 07 bf 4a 3b ef d0 b9 d9 e6 6e e8 a9 aa c2 5c 2e a5 de 62 d5 06 6a 80 f4 32 2f cc 5f ef fb aa a9 9b 5e 08 f1 ee 57 f3 bb 6d 71 d7 f5 d6 f8 3a 42 9c 25 97 a9 33 73 33 54 61 e9 ce 0f 07 7d 09 9e 46 c8 cf ....
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Certificate is of type X509Certificate2 and contains the private key.
+System.Net Information: 0 : [9408] AcquireCredentialsHandle(package = Microsoft Unified Security Protocol Provider, intent  = Outbound, scc     = System.Net.SecureCredential)
+System.Net Information: 0 : [9408] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = (null), targetName = directory.securecode.com, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [9408] InitializeSecurityContext(In-Buffer length=0, Out-Buffer length=128, returned code=ContinueNeeded).
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Send()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Send
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 16 03 01 00 7B 01 00 00-77 03 01 50 61 99 F5 7A : ....{...w..Pa..z
+System.Net.Sockets Verbose: 0 : [9408] 00000010 : D9 C7 B1 C3 EA 2F 10 96-A2 77 A6 4E 91 17 16 6C : ...../...w.N...l
+System.Net.Sockets Verbose: 0 : [9408] 00000020 : 8A 94 0E 27 FC CB 5E 9A-0D 47 89 00 00 18 00 2F : ...'..^..G...../
+System.Net.Sockets Verbose: 0 : [9408] 00000030 : 00 35 00 05 00 0A C0 13-C0 14 C0 09 C0 0A 00 32 : .5.............2
+System.Net.Sockets Verbose: 0 : [9408] 00000040 : 00 38 00 13 00 04 01 00-00 36 FF 01 00 01 00 00 : .8.......6......
+System.Net.Sockets Verbose: 0 : [9408] 00000050 : 00 00 1D 00 1B 00 00 18-64 69 72 65 63 74 6F 72 : ........director
+System.Net.Sockets Verbose: 0 : [9408] 00000060 : 79 2E 73 65 63 75 72 65-63 6F 64 65 2E 63 6F 6D : y.securecode.com
+System.Net.Sockets Verbose: 0 : [9408] 00000070 : 00 0A 00 06 00 04 00 17-00 18 00 0B 00 02 01 00 : ................
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Send() 	-> 128#128
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 16 03 01 09 9E                                  : .....
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 5#5
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] (printing 1024 out of 2462)
+System.Net.Sockets Verbose: 0 : [9408] 00000005 : 02 00 00 46 03 01 50 61-99 F8 2A 25 70 FA E7 A1 : ...F..Pa..*%p...
+System.Net.Sockets Verbose: 0 : [9408] 00000015 : CB F7 19 6E 44 A8 B7 47-9E 0E 6C 45 F9 9E D3 27 : ...nD..G..lE...'
+System.Net.Sockets Verbose: 0 : [9408] 00000025 : AC B0 29 E4 34 C4 20 A0-62 47 C2 F3 5D 15 1E 6E : ..).4. .bG..]..n
+System.Net.Sockets Verbose: 0 : [9408] 00000035 : 89 86 4C CF 90 3D 16 C9-4A 90 1D 46 DD D6 D4 A2 : ..L..=..J..F....
+System.Net.Sockets Verbose: 0 : [9408] 00000045 : 3C 16 42 D5 F8 4B 56 00-0A 00 0B 00 06 7B 00 06 : <.B..KV......{..
+System.Net.Sockets Verbose: 0 : [9408] 00000055 : 78 00 03 E4 30 82 03 E0-30 82 03 49 A0 03 02 01 : x...0...0..I....
+System.Net.Sockets Verbose: 0 : [9408] 00000065 : 02 02 10 5B A1 37 67 4A-E6 A0 30 C0 5C 68 4A B8 : ...[.7gJ..0.\hJ.
+System.Net.Sockets Verbose: 0 : [9408] 00000075 : C1 74 86 30 0D 06 09 2A-86 48 86 F7 0D 01 01 05 : .t.0...*.H......
+System.Net.Sockets Verbose: 0 : [9408] 00000085 : 05 00 30 81 85 31 0B 30-09 06 03 55 04 06 13 02 : ..0..1.0...U....
+System.Net.Sockets Verbose: 0 : [9408] 00000095 : 55 53 31 1D 30 1B 06 03-55 04 0A 13 14 4D 61 73 : US1.0...U....Mas
+System.Net.Sockets Verbose: 0 : [9408] 000000A5 : 74 65 72 43 61 72 64 20-57 6F 72 6C 64 77 69 64 : terCard Worldwid
+System.Net.Sockets Verbose: 0 : [9408] 000000B5 : 65 31 39 30 37 06 03 55-04 0B 13 30 4D 61 73 74 : e1907..U...0Mast
+System.Net.Sockets Verbose: 0 : [9408] 000000C5 : 65 72 43 61 72 64 20 57-6F 72 6C 64 77 69 64 65 : erCard Worldwide
+System.Net.Sockets Verbose: 0 : [9408] 000000D5 : 20 53 65 63 75 72 65 43-6F 64 65 20 44 69 72 65 :  SecureCode Dire
+System.Net.Sockets Verbose: 0 : [9408] 000000E5 : 63 74 6F 72 79 20 53 65-72 76 65 72 31 1C 30 1A : ctory Server1.0.
+System.Net.Sockets Verbose: 0 : [9408] 000000F5 : 06 03 55 04 03 13 13 50-52 44 20 4D 43 20 44 69 : ..U....PRD MC Di
+System.Net.Sockets Verbose: 0 : [9408] 00000105 : 72 65 63 74 6F 72 79 20-43 41 30 1E 17 0D 31 31 : rectory CA0...11
+System.Net.Sockets Verbose: 0 : [9408] 00000115 : 31 30 31 38 30 37 35 38-30 36 5A 17 0D 31 35 31 : 1018075806Z..151
+System.Net.Sockets Verbose: 0 : [9408] 00000125 : 30 31 37 30 37 34 39 30-35 5A 30 81 8C 31 0B 30 : 017074905Z0..1.0
+System.Net.Sockets Verbose: 0 : [9408] 00000135 : 09 06 03 55 04 06 13 02-55 53 31 11 30 0F 06 03 : ...U....US1.0...
+System.Net.Sockets Verbose: 0 : [9408] 00000145 : 55 04 08 13 08 4D 69 73-73 6F 75 72 69 31 14 30 : U....Missouri1.0
+System.Net.Sockets Verbose: 0 : [9408] 00000155 : 12 06 03 55 04 07 13 0B-53 61 69 6E 74 20 4C 6F : ...U....Saint Lo
+System.Net.Sockets Verbose: 0 : [9408] 00000165 : 75 69 73 31 1D 30 1B 06-03 55 04 0A 13 14 4D 61 : uis1.0...U....Ma
+System.Net.Sockets Verbose: 0 : [9408] 00000175 : 73 74 65 72 43 61 72 64-20 57 6F 72 6C 64 77 69 : sterCard Worldwi
+System.Net.Sockets Verbose: 0 : [9408] 00000185 : 64 65 31 12 30 10 06 03-55 04 0B 13 09 4E 53 32 : de1.0...U....NS2
+System.Net.Sockets Verbose: 0 : [9408] 00000195 : 33 20 53 50 52 44 31 21-30 1F 06 03 55 04 03 13 : 3 SPRD1!0...U...
+System.Net.Sockets Verbose: 0 : [9408] 000001A5 : 18 64 69 72 65 63 74 6F-72 79 2E 73 65 63 75 72 : .directory.secur
+System.Net.Sockets Verbose: 0 : [9408] 000001B5 : 65 63 6F 64 65 2E 63 6F-6D 30 82 01 22 30 0D 06 : ecode.com0.."0..
+System.Net.Sockets Verbose: 0 : [9408] 000001C5 : 09 2A 86 48 86 F7 0D 01-01 01 05 00 03 82 01 0F : .*.H............
+System.Net.Sockets Verbose: 0 : [9408] 000001D5 : 00 30 82 01 0A 02 82 01-01 00 AA F4 F9 1A EF 16 : .0..............
+System.Net.Sockets Verbose: 0 : [9408] 000001E5 : 8E 4D 0E 91 AA D2 D1 6C-E4 E4 80 6B 25 AE 1A FB : .M.....l...k%...
+System.Net.Sockets Verbose: 0 : [9408] 000001F5 : 1A E2 80 09 6E 7C 85 0B-F8 BC 4A 0E D1 5F 02 18 : ....n|....J.._..
+System.Net.Sockets Verbose: 0 : [9408] 00000205 : BE A6 76 CA 42 7D 18 7A-6D 47 05 4D CC A2 0E 02 : ..v.B}.zmG.M....
+System.Net.Sockets Verbose: 0 : [9408] 00000215 : CD EE 0C 4B 71 68 5C A5-1B D8 BB D5 E4 C5 C0 8D : ...Kqh\.........
+System.Net.Sockets Verbose: 0 : [9408] 00000225 : 32 B2 91 D8 11 17 41 53-C3 0C 2D D8 FE 20 B7 88 : 2.....AS..-.. ..
+System.Net.Sockets Verbose: 0 : [9408] 00000235 : A4 D7 C0 10 56 12 C0 28-AA BB 1B F1 81 5D 97 6D : ....V..(.....].m
+System.Net.Sockets Verbose: 0 : [9408] 00000245 : B9 76 3B 2D 01 AB F4 02-ED 37 DF 75 1A 54 11 F8 : .v;-.....7.u.T..
+System.Net.Sockets Verbose: 0 : [9408] 00000255 : 63 50 E7 2D D2 63 7B A3-AE E9 A8 F9 F6 E1 4E 91 : cP.-.c{.......N.
+System.Net.Sockets Verbose: 0 : [9408] 00000265 : BD EA F5 DB 8D 21 62 F6-C8 E6 31 1B 48 FE 15 28 : .....!b...1.H..(
+System.Net.Sockets Verbose: 0 : [9408] 00000275 : 27 E6 51 BD 53 E4 22 6C-A2 4A 6C 94 D9 2C 5A 7A : '.Q.S."l.Jl..,Zz
+System.Net.Sockets Verbose: 0 : [9408] 00000285 : B6 D7 A4 01 A3 B0 82 C0-20 7C 18 60 C4 20 BC 89 : ........ |.`. ..
+System.Net.Sockets Verbose: 0 : [9408] 00000295 : 48 32 4F F5 67 8E DB F8-5A AD BA 4A 53 78 AD 5E : H2O.g...Z..JSx.^
+System.Net.Sockets Verbose: 0 : [9408] 000002A5 : 0B A8 F0 FD 11 23 CB 6E-E8 50 55 43 2C 26 95 5E : .....#.n.PUC,&.^
+System.Net.Sockets Verbose: 0 : [9408] 000002B5 : 9A E5 A2 85 86 4A BF 49-D9 BC E5 1E DF 44 A2 F6 : .....J.I.....D..
+System.Net.Sockets Verbose: 0 : [9408] 000002C5 : C8 A2 DD DC F9 33 24 34-C8 D0 03 78 B2 28 48 AA : .....3$4...x.(H.
+System.Net.Sockets Verbose: 0 : [9408] 000002D5 : 98 2E 84 C4 42 46 E7 99-B6 93 02 03 01 00 01 A3 : ....BF..........
+System.Net.Sockets Verbose: 0 : [9408] 000002E5 : 81 C3 30 81 C0 30 09 06-03 55 1D 13 04 02 30 00 : ..0..0...U....0.
+System.Net.Sockets Verbose: 0 : [9408] 000002F5 : 30 4D 06 03 55 1D 20 04-46 30 44 30 42 06 09 2A : 0M..U. .F0D0B..*
+System.Net.Sockets Verbose: 0 : [9408] 00000305 : 86 48 86 F7 0D 05 06 01-30 35 30 33 06 08 2B 06 : .H......0503..+.
+System.Net.Sockets Verbose: 0 : [9408] 00000315 : 01 05 05 07 02 01 16 27-68 74 74 70 3A 2F 2F 63 : .......'http://c
+System.Net.Sockets Verbose: 0 : [9408] 00000325 : 65 72 74 69 66 69 63 61-74 65 73 2E 6D 61 73 74 : ertificates.mast
+System.Net.Sockets Verbose: 0 : [9408] 00000335 : 65 72 63 61 72 64 2E 63-6F 6D 2F 43 50 53 2F 30 : ercard.com/CPS/0
+System.Net.Sockets Verbose: 0 : [9408] 00000345 : 38 06 03 55 1D 1F 04 31-30 2F 30 2D A0 2B A0 29 : 8..U...10/0-.+.)
+System.Net.Sockets Verbose: 0 : [9408] 00000355 : 86 27 68 74 74 70 3A 2F-2F 63 65 72 74 69 66 69 : .'http://certifi
+System.Net.Sockets Verbose: 0 : [9408] 00000365 : 63 61 74 65 73 2E 6D 61-73 74 65 72 63 61 72 64 : cates.mastercard
+System.Net.Sockets Verbose: 0 : [9408] 00000375 : 2E 63 6F 6D 2F 53 43 44-2F 30 1D 06 03 55 1D 25 : .com/SCD/0...U.%
+System.Net.Sockets Verbose: 0 : [9408] 00000385 : 04 16 30 14 06 08 2B 06-01 05 05 07 03 01 06 08 : ..0...+.........
+System.Net.Sockets Verbose: 0 : [9408] 00000395 : 2B 06 01 05 05 07 03 02-30 0B 06 03 55 1D 0F 04 : +.......0...U...
+System.Net.Sockets Verbose: 0 : [9408] 000003A5 : 04 03 02 05 A0 30 0D 06-09 2A 86 48 86 F7 0D 01 : .....0...*.H....
+System.Net.Sockets Verbose: 0 : [9408] 000003B5 : 01 05 05 00 03 81 81 00-5A 76 20 99 02 59 BB 16 : ........Zv ..Y..
+System.Net.Sockets Verbose: 0 : [9408] 000003C5 : 32 5C E3 31 71 8D 8F 07-C9 80 F7 E7 DB B9 12 A7 : 2\.1q...........
+System.Net.Sockets Verbose: 0 : [9408] 000003D5 : ED 5A C5 50 C3 98 BF 97-C0 65 E1 D4 3A A2 99 EF : .Z.P.....e..:...
+System.Net.Sockets Verbose: 0 : [9408] 000003E5 : 6B 81 C7 53 FF 99 A2 A6-EE E9 EC 36 A7 B2 0F E2 : k..S.......6....
+System.Net.Sockets Verbose: 0 : [9408] 000003F5 : 19 96 BC 8E E5 29 2E 75-EB FB 7C 4F EE 60 4E 56 : .....).u..|O.`NV
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 2462#2462
+System.Net Information: 0 : [9408] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = 1b484790:1cd5d30, targetName = directory.securecode.com, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [9408] InitializeSecurityContext(In-Buffers count=2, Out-Buffer length=0, returned code=CredentialsNeeded).
+System.Net Information: 0 : [9408] SecureChannel#55915408 - We have user-provided certificates. The server has specified 5 issuer(s). Looking for certificates that match any of the issuers.
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Selected certificate: [Version]
+  V3
+
+[Subject]
+  CN=rt03.Kasikornbank.com, OU=Retail and SME E-Business Department (RE)., O="541176:KASIKORNBANK PUBLIC CO.,LTD.", C=TH
+  Simple Name: rt03.Kasikornbank.com
+  DNS Name: rt03.Kasikornbank.com
+
+[Issuer]
+  CN=PRD MC SecureCode Acquirer Sub CA, OU=MasterCard Worldwide SecureCode Gen 2, O=MasterCard Worldwide, C=US
+  Simple Name: PRD MC SecureCode Acquirer Sub CA
+  DNS Name: PRD MC SecureCode Acquirer Sub CA
+
+[Serial Number]
+  105201CE33FFA440B6BF3A7D3BAAEC46
+
+[Not Before]
+  9/20/2012 4:57:33 PM
+
+[Not After]
+  6/20/2025 4:16:18 PM
+
+[Thumbprint]
+  0E93C36E5626C8131423CC57407F40379FD1ED11
+
+[Signature Algorithm]
+  sha1RSA(1.2.840.113549.1.1.5)
+
+[Public Key]
+  Algorithm: RSA
+  Length: 2048
+  Key Blob: 30 82 01 0a 02 82 01 01 00 ce af 7f d2 f0 ca f8 06 c5 1e 19 07 bf 4a 3b ef d0 b9 d9 e6 6e e8 a9 aa c2 5c 2e a5 de 62 d5 06 6a 80 f4 32 2f cc 5f ef fb aa a9 9b 5e 08 f1 ee 57 f3 bb 6d 71 d7 f5 d6 f8 3a 42 9c 25 97 a9 33 73 33 54 61 e9 ce 0f 07 7d 09 9e 46 c8 cf ....
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Left with 1 client certificates to choose from.
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Trying to find a matching certificate in the certificate store.
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Locating the private key for the certificate: [Version]
+  V3
+
+[Subject]
+  CN=rt03.Kasikornbank.com, OU=Retail and SME E-Business Department (RE)., O="541176:KASIKORNBANK PUBLIC CO.,LTD.", C=TH
+  Simple Name: rt03.Kasikornbank.com
+  DNS Name: rt03.Kasikornbank.com
+
+[Issuer]
+  CN=PRD MC SecureCode Acquirer Sub CA, OU=MasterCard Worldwide SecureCode Gen 2, O=MasterCard Worldwide, C=US
+  Simple Name: PRD MC SecureCode Acquirer Sub CA
+  DNS Name: PRD MC SecureCode Acquirer Sub CA
+
+[Serial Number]
+  105201CE33FFA440B6BF3A7D3BAAEC46
+
+[Not Before]
+  9/20/2012 4:57:33 PM
+
+[Not After]
+  6/20/2025 4:16:18 PM
+
+[Thumbprint]
+  0E93C36E5626C8131423CC57407F40379FD1ED11
+
+[Signature Algorithm]
+  sha1RSA(1.2.840.113549.1.1.5)
+
+[Public Key]
+  Algorithm: RSA
+  Length: 2048
+  Key Blob: 30 82 01 0a 02 82 01 01 00 ce af 7f d2 f0 ca f8 06 c5 1e 19 07 bf 4a 3b ef d0 b9 d9 e6 6e e8 a9 aa c2 5c 2e a5 de 62 d5 06 6a 80 f4 32 2f cc 5f ef fb aa a9 9b 5e 08 f1 ee 57 f3 bb 6d 71 d7 f5 d6 f8 3a 42 9c 25 97 a9 33 73 33 54 61 e9 ce 0f 07 7d 09 9e 46 c8 cf ....
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Certificate is of type X509Certificate2 and contains the private key.
+System.Net Information: 0 : [9408] AcquireCredentialsHandle(package = Microsoft Unified Security Protocol Provider, intent  = Outbound, scc     = System.Net.SecureCredential)
+System.Net Information: 0 : [9408] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = 1b484790:1cd5d30, targetName = directory.securecode.com, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [9408] InitializeSecurityContext(In-Buffers count=2, Out-Buffer length=2908, returned code=ContinueNeeded).
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Send()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Send
+System.Net.Sockets Verbose: 0 : [9408] (printing 1024 out of 2908)
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 16 03 01 0B 24 0B 00 09-14 00 09 11 00 04 85 30 : ....$..........0
+System.Net.Sockets Verbose: 0 : [9408] 00000010 : 82 04 81 30 82 03 69 A0-03 02 01 02 02 10 10 52 : ...0..i........R
+System.Net.Sockets Verbose: 0 : [9408] 00000020 : 01 CE 33 FF A4 40 B6 BF-3A 7D 3B AA EC 46 30 0D : ..3..@..:};..F0.
+System.Net.Sockets Verbose: 0 : [9408] 00000030 : 06 09 2A 86 48 86 F7 0D-01 01 05 05 00 30 81 88 : ..*.H........0..
+System.Net.Sockets Verbose: 0 : [9408] 00000040 : 31 0B 30 09 06 03 55 04-06 13 02 55 53 31 1D 30 : 1.0...U....US1.0
+System.Net.Sockets Verbose: 0 : [9408] 00000050 : 1B 06 03 55 04 0A 13 14-4D 61 73 74 65 72 43 61 : ...U....MasterCa
+System.Net.Sockets Verbose: 0 : [9408] 00000060 : 72 64 20 57 6F 72 6C 64-77 69 64 65 31 2E 30 2C : rd Worldwide1.0,
+System.Net.Sockets Verbose: 0 : [9408] 00000070 : 06 03 55 04 0B 13 25 4D-61 73 74 65 72 43 61 72 : ..U...%MasterCar
+System.Net.Sockets Verbose: 0 : [9408] 00000080 : 64 20 57 6F 72 6C 64 77-69 64 65 20 53 65 63 75 : d Worldwide Secu
+System.Net.Sockets Verbose: 0 : [9408] 00000090 : 72 65 43 6F 64 65 20 47-65 6E 20 32 31 2A 30 28 : reCode Gen 21*0(
+System.Net.Sockets Verbose: 0 : [9408] 000000A0 : 06 03 55 04 03 13 21 50-52 44 20 4D 43 20 53 65 : ..U...!PRD MC Se
+System.Net.Sockets Verbose: 0 : [9408] 000000B0 : 63 75 72 65 43 6F 64 65-20 41 63 71 75 69 72 65 : cureCode Acquire
+System.Net.Sockets Verbose: 0 : [9408] 000000C0 : 72 20 53 75 62 20 43 41-30 1E 17 0D 31 32 30 39 : r Sub CA0...1209
+System.Net.Sockets Verbose: 0 : [9408] 000000D0 : 32 30 30 39 35 37 33 33-5A 17 0D 32 35 30 36 32 : 20095733Z..25062
+System.Net.Sockets Verbose: 0 : [9408] 000000E0 : 30 30 39 31 36 31 38 5A-30 81 90 31 0B 30 09 06 : 0091618Z0..1.0..
+System.Net.Sockets Verbose: 0 : [9408] 000000F0 : 03 55 04 06 13 02 54 48-31 2C 30 2A 06 03 55 04 : .U....TH1,0*..U.
+System.Net.Sockets Verbose: 0 : [9408] 00000100 : 0A 13 23 35 34 31 31 37-36 3A 4B 41 53 49 4B 4F : ..#541176:KASIKO
+System.Net.Sockets Verbose: 0 : [9408] 00000110 : 52 4E 42 41 4E 4B 20 50-55 42 4C 49 43 20 43 4F : RNBANK PUBLIC CO
+System.Net.Sockets Verbose: 0 : [9408] 00000120 : 2E 2C 4C 54 44 2E 31 33-30 31 06 03 55 04 0B 13 : .,LTD.1301..U...
+System.Net.Sockets Verbose: 0 : [9408] 00000130 : 2A 52 65 74 61 69 6C 20-61 6E 64 20 53 4D 45 20 : *Retail and SME 
+System.Net.Sockets Verbose: 0 : [9408] 00000140 : 45 2D 42 75 73 69 6E 65-73 73 20 44 65 70 61 72 : E-Business Depar
+System.Net.Sockets Verbose: 0 : [9408] 00000150 : 74 6D 65 6E 74 20 28 52-45 29 2E 31 1E 30 1C 06 : tment (RE).1.0..
+System.Net.Sockets Verbose: 0 : [9408] 00000160 : 03 55 04 03 13 15 72 74-30 33 2E 4B 61 73 69 6B : .U....rt03.Kasik
+System.Net.Sockets Verbose: 0 : [9408] 00000170 : 6F 72 6E 62 61 6E 6B 2E-63 6F 6D 30 82 01 22 30 : ornbank.com0.."0
+System.Net.Sockets Verbose: 0 : [9408] 00000180 : 0D 06 09 2A 86 48 86 F7-0D 01 01 01 05 00 03 82 : ...*.H..........
+System.Net.Sockets Verbose: 0 : [9408] 00000190 : 01 0F 00 30 82 01 0A 02-82 01 01 00 CE AF 7F D2 : ...0............
+System.Net.Sockets Verbose: 0 : [9408] 000001A0 : F0 CA F8 06 C5 1E 19 07-BF 4A 3B EF D0 B9 D9 E6 : .........J;.....
+System.Net.Sockets Verbose: 0 : [9408] 000001B0 : 6E E8 A9 AA C2 5C 2E A5-DE 62 D5 06 6A 80 F4 32 : n....\...b..j..2
+System.Net.Sockets Verbose: 0 : [9408] 000001C0 : 2F CC 5F EF FB AA A9 9B-5E 08 F1 EE 57 F3 BB 6D : /._.....^...W..m
+System.Net.Sockets Verbose: 0 : [9408] 000001D0 : 71 D7 F5 D6 F8 3A 42 9C-25 97 A9 33 73 33 54 61 : q....:B.%..3s3Ta
+System.Net.Sockets Verbose: 0 : [9408] 000001E0 : E9 CE 0F 07 7D 09 9E 46-C8 CF 8F C1 3E 89 0C 12 : ....}..F....>...
+System.Net.Sockets Verbose: 0 : [9408] 000001F0 : C7 4D 2B FA 9D F3 6D 37-53 E9 F5 7D FD FB F0 7F : .M+...m7S..}....
+System.Net.Sockets Verbose: 0 : [9408] 00000200 : F2 F0 80 46 79 A7 50 E9-E6 21 8A 7C 26 E5 1A 17 : ...Fy.P..!.|&...
+System.Net.Sockets Verbose: 0 : [9408] 00000210 : 53 95 68 DF 5E D4 7D 2D-13 C2 91 6E B0 9F 75 B1 : S.h.^.}-...n..u.
+System.Net.Sockets Verbose: 0 : [9408] 00000220 : 50 32 FA 6F 92 70 9F 08-FE DE F5 8F 36 B1 AB C3 : P2.o.p......6...
+System.Net.Sockets Verbose: 0 : [9408] 00000230 : 72 3D 79 4A A0 4E 28 36-52 E2 44 C2 4F 93 3E 1B : r=yJ.N(6R.D.O.>.
+System.Net.Sockets Verbose: 0 : [9408] 00000240 : 73 B5 3D DE 22 E6 4F D0-D1 02 84 19 64 B7 ED C0 : s.=.".O.....d...
+System.Net.Sockets Verbose: 0 : [9408] 00000250 : EC E4 B1 2A ED 3C AF E2-A1 54 8A BE 1B 98 2F AC : ...*.<...T..../.
+System.Net.Sockets Verbose: 0 : [9408] 00000260 : 6C 26 CC 98 35 CC A9 DC-A9 D3 A9 A2 56 8D A6 B0 : l&..5.......V...
+System.Net.Sockets Verbose: 0 : [9408] 00000270 : 7D F3 3B FB 14 AC 3D 89-D3 33 46 42 44 97 AC 24 : }.;...=..3FBD..$
+System.Net.Sockets Verbose: 0 : [9408] 00000280 : 4A 2F 72 77 40 2F 18 6A-A6 5E 58 5B 59 28 8D 8D : J/rw@/.j.^X[Y(..
+System.Net.Sockets Verbose: 0 : [9408] 00000290 : DB 49 FB E7 9C 76 F9 FE-74 9B 57 B3 02 03 01 00 : .I...v..t.W.....
+System.Net.Sockets Verbose: 0 : [9408] 000002A0 : 01 A3 81 DC 30 81 D9 30-81 A6 06 03 55 1D 23 04 : ....0..0....U.#.
+System.Net.Sockets Verbose: 0 : [9408] 000002B0 : 81 9E 30 81 9B A1 81 86-A4 81 83 30 81 80 31 0B : ..0........0..1.
+System.Net.Sockets Verbose: 0 : [9408] 000002C0 : 30 09 06 03 55 04 06 13-02 55 53 31 1D 30 1B 06 : 0...U....US1.0..
+System.Net.Sockets Verbose: 0 : [9408] 000002D0 : 03 55 04 0A 13 14 4D 61-73 74 65 72 43 61 72 64 : .U....MasterCard
+System.Net.Sockets Verbose: 0 : [9408] 000002E0 : 20 57 6F 72 6C 64 77 69-64 65 31 2E 30 2C 06 03 :  Worldwide1.0,..
+System.Net.Sockets Verbose: 0 : [9408] 000002F0 : 55 04 0B 13 25 4D 61 73-74 65 72 43 61 72 64 20 : U...%MasterCard 
+System.Net.Sockets Verbose: 0 : [9408] 00000300 : 57 6F 72 6C 64 77 69 64-65 20 53 65 63 75 72 65 : Worldwide Secure
+System.Net.Sockets Verbose: 0 : [9408] 00000310 : 43 6F 64 65 20 47 65 6E-20 32 31 22 30 20 06 03 : Code Gen 21"0 ..
+System.Net.Sockets Verbose: 0 : [9408] 00000320 : 55 04 03 13 19 50 52 44-20 4D 43 20 53 65 63 75 : U....PRD MC Secu
+System.Net.Sockets Verbose: 0 : [9408] 00000330 : 72 65 43 6F 64 65 20 52-6F 6F 74 20 43 41 82 10 : reCode Root CA..
+System.Net.Sockets Verbose: 0 : [9408] 00000340 : 25 FA 88 FF 0A F6 07 97-08 19 BB 0B 24 C1 90 57 : %...........$..W
+System.Net.Sockets Verbose: 0 : [9408] 00000350 : 30 09 06 03 55 1D 13 04-02 30 00 30 13 06 03 55 : 0...U....0.0...U
+System.Net.Sockets Verbose: 0 : [9408] 00000360 : 1D 25 04 0C 30 0A 06 08-2B 06 01 05 05 07 03 02 : .%..0...+.......
+System.Net.Sockets Verbose: 0 : [9408] 00000370 : 30 0E 06 03 55 1D 0F 01-01 FF 04 04 03 02 07 80 : 0...U...........
+System.Net.Sockets Verbose: 0 : [9408] 00000380 : 30 0D 06 09 2A 86 48 86-F7 0D 01 01 05 05 00 03 : 0...*.H.........
+System.Net.Sockets Verbose: 0 : [9408] 00000390 : 82 01 01 00 30 34 6D B9-50 38 41 81 6B 87 B9 08 : ....04m.P8A.k...
+System.Net.Sockets Verbose: 0 : [9408] 000003A0 : 22 43 3C 9E 9C A0 49 CC-3B 09 D7 B8 36 91 16 13 : "C<...I.;...6...
+System.Net.Sockets Verbose: 0 : [9408] 000003B0 : B7 36 7B 38 34 48 E1 E4-A9 C3 DC AF 2F 6A 62 D9 : .6{84H....../jb.
+System.Net.Sockets Verbose: 0 : [9408] 000003C0 : 3A 5B 88 C9 DC 04 F8 E3-B3 7F 88 6C F1 06 9E 27 : :[.........l...'
+System.Net.Sockets Verbose: 0 : [9408] 000003D0 : AF B4 4B 33 2E 3D 1D C6-3A 90 14 4E A9 5A 7A 37 : ..K3.=..:..N.Zz7
+System.Net.Sockets Verbose: 0 : [9408] 000003E0 : 14 B4 71 C1 8D 41 0F A1-20 5F 3F 2C 9F 1F 5C 96 : ..q..A.. _?,..\.
+System.Net.Sockets Verbose: 0 : [9408] 000003F0 : 43 7F 0C F2 49 7B A5 4C-23 1C 21 0B B6 D6 28 DF : C...I{.L#.!...(.
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Send() 	-> 2908#2908
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 14 03 01 00 01                                  : .....
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 5#5
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000005 : 01                                              : .
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 1#1
+System.Net Information: 0 : [9408] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = 1b484790:1cd5d30, targetName = directory.securecode.com, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [9408] InitializeSecurityContext(In-Buffers count=2, Out-Buffer length=0, returned code=ContinueNeeded).
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 16 03 01 00 28                                  : ....(
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 5#5
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000005 : 11 4C FB DE F4 46 F9 D4-4F D1 FB 68 53 60 0B 39 : .L...F..O..hS`.9
+System.Net.Sockets Verbose: 0 : [9408] 00000015 : B7 C1 76 40 57 BE 3F FE-04 F0 D5 25 08 EF 8B 49 : ..v@W.?....%...I
+System.Net.Sockets Verbose: 0 : [9408] 00000025 : DF 2F 36 F2 F5 33 82 7A-                        : ./6..3.z
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 40#40
+System.Net Information: 0 : [9408] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = 1b484790:1cd5d30, targetName = directory.securecode.com, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [9408] InitializeSecurityContext(In-Buffers count=2, Out-Buffer length=0, returned code=OK).
+System.Net Information: 0 : [9408] Remote certificate: [Version]
+  V3
+
+[Subject]
+  CN=directory.securecode.com, OU=NS23 SPRD, O=MasterCard Worldwide, L=Saint Louis, S=Missouri, C=US
+  Simple Name: directory.securecode.com
+  DNS Name: directory.securecode.com
+
+[Issuer]
+  CN=PRD MC Directory CA, OU=MasterCard Worldwide SecureCode Directory Server, O=MasterCard Worldwide, C=US
+  Simple Name: PRD MC Directory CA
+  DNS Name: PRD MC Directory CA
+
+[Serial Number]
+  5BA137674AE6A030C05C684AB8C17486
+
+[Not Before]
+  10/18/2011 2:58:06 PM
+
+[Not After]
+  10/17/2015 2:49:05 PM
+
+[Thumbprint]
+  E07AF0192216F8AD5345830E1E2D80A18F377FB0
+
+[Signature Algorithm]
+  sha1RSA(1.2.840.113549.1.1.5)
+
+[Public Key]
+  Algorithm: RSA
+  Length: 2048
+  Key Blob: 30 82 01 0a 02 82 01 01 00 aa f4 f9 1a ef 16 8e 4d 0e 91 aa d2 d1 6c e4 e4 80 6b 25 ae 1a fb 1a e2 80 09 6e 7c 85 0b f8 bc 4a 0e d1 5f 02 18 be a6 76 ca 42 7d 18 7a 6d 47 05 4d cc a2 0e 02 cd ee 0c 4b 71 68 5c a5 1b d8 bb d5 e4 c5 c0 8d 32 b2 91 d8 11 17 41 53 c3 0c 2d d8 fe 20 b7 88 a4 d7 c0 10 56 12 c....
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Remote certificate has errors:
+System.Net Information: 0 : [9408] SecureChannel#55915408 - 	A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.
+
+System.Net Information: 0 : [9408] SecureChannel#55915408 - Remote certificate was verified as valid by the user.
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Send()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Send
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 17 03 01 00 D8 8C 30 A2-D1 DC 09 D8 5E B9 56 C0 : ......0.....^.V.
+System.Net.Sockets Verbose: 0 : [9408] 00000010 : AC A2 84 9B 59 50 BF 7D-73 E8 68 C8 49 6D DA B9 : ....YP.}s.h.Im..
+System.Net.Sockets Verbose: 0 : [9408] 00000020 : 4F E0 A9 D9 45 B8 45 5D-7A D4 8C C2 40 BC A8 7E : O...E.E]z...@..~
+System.Net.Sockets Verbose: 0 : [9408] 00000030 : CB 74 FA 02 99 8C 6F 89-A4 E2 6A AB 59 AB B0 03 : .t....o...j.Y...
+System.Net.Sockets Verbose: 0 : [9408] 00000040 : 20 BA 3E 45 A9 9E F1 18-2B FF A2 E2 2E FD 99 1D :  .>E....+.......
+System.Net.Sockets Verbose: 0 : [9408] 00000050 : 86 46 47 C0 5C D4 87 3A-E2 DD E8 CB 12 B1 8E 9D : .FG.\..:........
+System.Net.Sockets Verbose: 0 : [9408] 00000060 : 08 1C AC 98 93 14 38 CB-B3 28 AC 0F DD D8 C7 8C : ......8..(......
+System.Net.Sockets Verbose: 0 : [9408] 00000070 : EC 45 52 A0 B9 F9 C3 35-13 DB B7 FF E3 D2 CB CB : .ER....5........
+System.Net.Sockets Verbose: 0 : [9408] 00000080 : A6 7A 82 25 66 06 45 F1-8E 1A 6F 87 97 D2 EE A4 : .z.%f.E...o.....
+System.Net.Sockets Verbose: 0 : [9408] 00000090 : 93 14 E2 1F FF 3A 0E 13-63 E4 6D 43 1D FB 8A 4C : .....:..c.mC...L
+System.Net.Sockets Verbose: 0 : [9408] 000000A0 : A2 8A F7 71 DA CB 06 E5-05 4E 32 9F CD 9B E7 FD : ...q.....N2.....
+System.Net.Sockets Verbose: 0 : [9408] 000000B0 : FF 99 E0 5E B1 6A A8 AC-15 5A FA 6C CE FE 63 A0 : ...^.j...Z.l..c.
+System.Net.Sockets Verbose: 0 : [9408] 000000C0 : 66 47 95 A0 A7 22 52 3B-AE E4 08 C7 A2 86 BB 64 : fG..."R;.......d
+System.Net.Sockets Verbose: 0 : [9408] 000000D0 : C0 9A 51 EA 3F 68 67 D3-72 37 E1 C1 1D          : ..Q.?hg.r7...
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Send() 	-> 221#221
+System.Net Information: 0 : [9408] ConnectStream#43495525 - Sending headers
+{
+User-Agent: SinaptIQ WebBot
+Content-Type: application/xml; charset=utf-8
+Host: directory.securecode.com
+Content-Length: 29
+Expect: 100-continue
+Connection: Keep-Alive
+}.
+System.Net Verbose: 0 : [9408] Exiting HttpWebRequest#48285313::GetRequestStream() 	-> ConnectStream#43495525
+System.Net Verbose: 0 : [9408] ConnectStream#43495525::Write()
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Send()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Send
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 17 03 01 00 38 DC 50 3F-82 A3 A2 56 61 F3 88 FB : ....8.P?...Va...
+System.Net.Sockets Verbose: 0 : [9408] 00000010 : D6 1D D4 FF 80 F3 04 68-9B C5 38 66 19 E9 CA 5F : .......h..8f..._
+System.Net.Sockets Verbose: 0 : [9408] 00000020 : 95 9F 03 D6 F4 9C E6 5C-0C D5 8B D6 BE 47 79 1F : .......\.....Gy.
+System.Net.Sockets Verbose: 0 : [9408] 00000030 : 38 FD C7 28 59 B4 F7 39-A2 BC 03 D9 CA          : 8..(Y..9.....
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Send() 	-> 61#61
+System.Net Verbose: 0 : [9408] Data from ConnectStream#43495525::Write
+System.Net Verbose: 0 : [9408] 00000000 : 3C 54 68 72 65 65 44 53-65 63 75 72 65 3E 3C 2F : <ThreeDSecure></
+System.Net Verbose: 0 : [9408] 00000010 : 54 68 72 65 65 44 53 65-63 75 72 65 3E          : ThreeDSecure>
+System.Net Verbose: 0 : [9408] Exiting ConnectStream#43495525::Write() 
+System.Net Verbose: 0 : [9408] ConnectStream#43495525::Close()
+System.Net Verbose: 0 : [9408] Exiting ConnectStream#43495525::Close() 
+System.Net Verbose: 0 : [9408] HttpWebRequest#48285313::GetResponse()
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 17 03 01 00 70                                  : ....p
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 5#5
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000005 : 1D D3 33 DE 26 56 5B 6C-85 26 19 55 BD FF DF E8 : ..3.&V[l.&.U....
+System.Net.Sockets Verbose: 0 : [9408] 00000015 : 62 CE 2D 0E A1 44 C0 F1-68 52 F0 EE BF 12 80 FF : b.-..D..hR......
+System.Net.Sockets Verbose: 0 : [9408] 00000025 : 05 13 35 A4 C1 47 92 A1-A4 24 C2 D1 40 92 17 88 : ..5..G...$..@...
+System.Net.Sockets Verbose: 0 : [9408] 00000035 : 9B 97 5D AD A9 14 BC 25-95 F6 D7 4A 0E 92 61 90 : ..]....%...J..a.
+System.Net.Sockets Verbose: 0 : [9408] 00000045 : 8B 5B 66 E7 04 62 A6 58-D8 4A 4A D6 28 3F 72 2B : .[f..b.X.JJ.(?r+
+System.Net.Sockets Verbose: 0 : [9408] 00000055 : 50 C8 E5 10 67 80 F7 6A-58 2A 3E 5E FC CD CD 6D : P...g..jX*>^...m
+System.Net.Sockets Verbose: 0 : [9408] 00000065 : 6E 9C CB 0D FA 5F A0 6B-5C 17 8A 15 10 79 F6 10 : n...._.k\....y..
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 112#112
+System.Net Information: 0 : [9408] Connection#18796293 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [9408] Connection#18796293 - Received headers
+{
+Content-Length: 277
+Content-Type: application/xml; charset="utf-8"
+}.
+System.Net Information: 0 : [9408] ConnectStream#33476626::ConnectStream(Buffered 277 bytes.)
+System.Net Information: 0 : [9408] Associating HttpWebRequest#48285313 with ConnectStream#33476626
+System.Net Information: 0 : [9408] Associating HttpWebRequest#48285313 with HttpWebResponse#32854180
+System.Net Verbose: 0 : [9408] Exiting HttpWebRequest#48285313::GetResponse() 	-> HttpWebResponse#32854180
+System.Net Verbose: 0 : [9408] HttpWebResponse#32854180::GetResponseStream()
+System.Net Information: 0 : [9408] ContentLength=277
+System.Net Verbose: 0 : [9408] Exiting HttpWebResponse#32854180::GetResponseStream() 	-> ConnectStream#33476626
+System.Net Verbose: 0 : [9408] ConnectStream#33476626::Read()
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000000 : 17 03 01 01 30                                  : ....0
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 5#5
+System.Net.Sockets Verbose: 0 : [9408] Socket#34948909::Receive()
+System.Net.Sockets Verbose: 0 : [9408] Data from Socket#34948909::Receive
+System.Net.Sockets Verbose: 0 : [9408] 00000005 : AA FE D3 93 07 3F 38 8F-E9 A3 6A 2C 68 6B 6D 76 : .....?8...j,hkmv
+System.Net.Sockets Verbose: 0 : [9408] 00000015 : 9E F0 6F E9 8B 14 66 C3-D2 9D 96 A5 F3 DD 4A 08 : ..o...f.......J.
+System.Net.Sockets Verbose: 0 : [9408] 00000025 : F8 45 E1 68 38 F0 4B D5-F4 54 9A 24 72 8F 7A A1 : .E.h8.K..T.$r.z.
+System.Net.Sockets Verbose: 0 : [9408] 00000035 : 03 35 C1 E3 26 0D 86 38-79 0D D0 09 50 2A 45 1D : .5..&..8y...P*E.
+System.Net.Sockets Verbose: 0 : [9408] 00000045 : E2 D6 3D 23 30 06 11 AD-28 EE C6 E3 2E F4 6B 3A : ..=#0...(.....k:
+System.Net.Sockets Verbose: 0 : [9408] 00000055 : BD F7 BF 2C 18 C7 AD 86-F6 01 94 68 AC FA 15 D5 : ...,.......h....
+System.Net.Sockets Verbose: 0 : [9408] 00000065 : 27 6C 7B BE 69 91 54 80-32 2E 55 6E 35 FB B3 E9 : 'l{.i.T.2.Un5...
+System.Net.Sockets Verbose: 0 : [9408] 00000075 : 78 30 2C 4D 2E 26 5F 7F-66 ED D2 46 35 FA 3F 21 : x0,M.&_.f..F5.?!
+System.Net.Sockets Verbose: 0 : [9408] 00000085 : 84 AF 65 9F 55 56 69 67-54 74 DA 36 0A 6B 7B 9A : ..e.UVigTt.6.k{.
+System.Net.Sockets Verbose: 0 : [9408] 00000095 : A7 8D 1D 27 6B F6 5C 52-1D BB DB 1F CA 86 AB 33 : ...'k.\R.......3
+System.Net.Sockets Verbose: 0 : [9408] 000000A5 : 52 36 29 0A 9B 47 20 A7-37 12 14 A5 6B 0E 40 6E : R6)..G .7...k.@n
+System.Net.Sockets Verbose: 0 : [9408] 000000B5 : D6 CC 85 11 91 3B D2 F3-EA 85 B2 74 DA F5 1F 84 : .....;.....t....
+System.Net.Sockets Verbose: 0 : [9408] 000000C5 : 2D B8 D0 28 26 F6 58 1B-19 95 17 C1 09 04 79 E4 : -..(&.X.......y.
+System.Net.Sockets Verbose: 0 : [9408] 000000D5 : 09 77 95 E5 54 48 29 AC-63 BB 9F CD 14 48 08 F8 : .w..TH).c....H..
+System.Net.Sockets Verbose: 0 : [9408] 000000E5 : A3 17 38 99 36 A2 A7 FC-E6 5A 01 72 7D AA D6 2C : ..8.6....Z.r}..,
+System.Net.Sockets Verbose: 0 : [9408] 000000F5 : 91 50 BC AC AD 1C 57 E2-51 60 E2 EF 0F 8D 7A 22 : .P....W.Q`....z"
+System.Net.Sockets Verbose: 0 : [9408] 00000105 : 41 B1 1D 40 60 42 27 43-47 6C 80 7A 53 F9 66 0E : A..@`B'CGl.zS.f.
+System.Net.Sockets Verbose: 0 : [9408] 00000115 : 1D 95 36 62 A4 32 38 89-D1 EF 8A 21 8E D1 DA 32 : ..6b.28....!...2
+System.Net.Sockets Verbose: 0 : [9408] 00000125 : A0 12 7B CD 18 76 4C 09-0A DC FD D4 74 CD 00 DC : ..{..vL.....t...
+System.Net.Sockets Verbose: 0 : [9408] Exiting Socket#34948909::Receive() 	-> 304#304
+System.Net Verbose: 0 : [9408] Data from ConnectStream#33476626::Read
+System.Net Verbose: 0 : [9408] 00000000 : 3C 54 68 72 65 65 44 53-65 63 75 72 65 3E 3C 4D : <ThreeDSecure><M
+System.Net Verbose: 0 : [9408] 00000010 : 65 73 73 61 67 65 20 69-64 3D 22 6D 73 67 2E 34 : essage id="msg.4
+System.Net Verbose: 0 : [9408] 00000020 : 38 37 32 39 38 36 37 22-3E 3C 45 72 72 6F 72 3E : 8729867"><Error>
+System.Net Verbose: 0 : [9408] 00000030 : 3C 76 65 72 73 69 6F 6E-3E 31 2E 30 2E 32 3C 2F : <version>1.0.2</
+System.Net Verbose: 0 : [9408] 00000040 : 76 65 72 73 69 6F 6E 3E-3C 65 72 72 6F 72 43 6F : version><errorCo
+System.Net Verbose: 0 : [9408] 00000050 : 64 65 3E 33 3C 2F 65 72-72 6F 72 43 6F 64 65 3E : de>3</errorCode>
+System.Net Verbose: 0 : [9408] 00000060 : 3C 65 72 72 6F 72 4D 65-73 73 61 67 65 3E 52 65 : <errorMessage>Re
+System.Net Verbose: 0 : [9408] 00000070 : 71 75 69 72 65 64 20 65-6C 65 6D 65 6E 74 20 6D : quired element m
+System.Net Verbose: 0 : [9408] 00000080 : 69 73 73 69 6E 67 2E 3C-2F 65 72 72 6F 72 4D 65 : issing.</errorMe
+System.Net Verbose: 0 : [9408] 00000090 : 73 73 61 67 65 3E 3C 65-72 72 6F 72 44 65 74 61 : ssage><errorDeta
+System.Net Verbose: 0 : [9408] 000000A0 : 69 6C 3E 4D 65 73 73 61-67 65 3C 2F 65 72 72 6F : il>Message</erro
+System.Net Verbose: 0 : [9408] 000000B0 : 72 44 65 74 61 69 6C 3E-3C 76 65 6E 64 6F 72 43 : rDetail><vendorC
+System.Net Verbose: 0 : [9408] 000000C0 : 6F 64 65 3E 41 52 43 4F-54 20 53 59 53 54 45 4D : ode>ARCOT SYSTEM
+System.Net Verbose: 0 : [9408] 000000D0 : 53 3A 20 49 6E 76 61 6C-69 64 20 58 4D 4C 20 6D : S: Invalid XML m
+System.Net Verbose: 0 : [9408] 000000E0 : 65 73 73 61 67 65 3B 3C-2F 76 65 6E 64 6F 72 43 : essage;</vendorC
+System.Net Verbose: 0 : [9408] 000000F0 : 6F 64 65 3E 3C 2F 45 72-72 6F 72 3E 3C 2F 4D 65 : ode></Error></Me
+System.Net Verbose: 0 : [9408] 00000100 : 73 73 61 67 65 3E 3C 2F-54 68 72 65 65 44 53 65 : ssage></ThreeDSe
+System.Net Verbose: 0 : [9408] 00000110 : 63 75 72 65 3E                                  : cure>
+System.Net Verbose: 0 : [9408] Exiting ConnectStream#33476626::Read() 	-> 277#277
+System.Net Verbose: 0 : [9408] ConnectStream#33476626::Read()
+System.Net Verbose: 0 : [9408] Exiting ConnectStream#33476626::Read() 	-> 0#0
+System.Net Verbose: 0 : [9408] HttpWebResponse#32854180::Close()
+System.Net Verbose: 0 : [9408] Exiting HttpWebResponse#32854180::Close() 

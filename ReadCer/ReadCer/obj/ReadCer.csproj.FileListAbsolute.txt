@@ -1,0 +1,13 @@
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ReadCer.Form1.resources
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ReadCer.Properties.Resources.resources
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ReadCer.csproj.GenerateResource.Cache
+D:\Project\ReadCer\ReadCer\ReadCer\bin\Debug\ReadCer.exe
+D:\Project\ReadCer\ReadCer\ReadCer\bin\Debug\ReadCer.pdb
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ReadCer.exe
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ReadCer.pdb
+D:\Project\ReadCer\ReadCer\ReadCer\bin\Debug\ReadCer.exe.config
+D:\Project\ReadCer\ReadCer\ReadCer\obj\Debug\ReadCer.Form2.resources
+D:\Project\ReadCer\TestRepo\ReadCer\ReadCer\bin\Debug\ReadCer.exe.config
+D:\Project\ReadCer\TestRepo\ReadCer\ReadCer\obj\Debug\ReadCer.exe
+D:\Project\ReadCer\TestRepo\ReadCer\ReadCer\obj\Debug\ReadCer.pdb
